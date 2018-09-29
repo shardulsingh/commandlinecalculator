@@ -1,8 +1,9 @@
 # commandlinecalculator
 
-A simple command line calculator
+A simple command line calculator using NodeJS
 
 ## Getting Started
+Please make sure you have npn and node installed.
 Install the module with: `npm install -g`
 
 To run tests, please use `npm test`
