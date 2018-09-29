@@ -6,6 +6,8 @@ A simple command line calculator using NodeJS
 Please make sure you have npn and node installed.
 Install the module with: `npm install -g`
 
+To create a symlink, use `npm link`
+
 To run tests, please use `npm test`
 
 
