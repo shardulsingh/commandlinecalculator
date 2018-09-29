@@ -1,0 +1,43 @@
+{
+  "name": "commandlinecalculator",
+  "description": "A simple command line calculator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shardulsingh/commandlinecalculator",
+  "author": {
+    "name": "Shardul Singh",
+    "email": "shardulvsingh2010@gmail.com"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "calculator": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shardulsingh/commandlinecalculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shardulsingh/commandlinecalculator/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shardulsingh/commandlinecalculator/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/commandlinecalculator",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": []
+}
